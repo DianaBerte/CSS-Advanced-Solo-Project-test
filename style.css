@@ -1,25 +1,59 @@
+body {
+    margin: 0;
+}
+
+.main-container {
+    background-color: rgb(255, 242, 0);
+}
+
+.cards {
+    background-color:  rgb(255, 242, 0);
+}
+
 .columns {
     
     display: flex;
     flex-direction: row;
-    gap: 2rem;
+    gap: 6rem;
     border: 10px solid firebrick;
+    flex-flow: row wrap;
+    margin-left: 10%;
+    margin-right: 10%;
+    
 }
 
 .card {
     background-color: rgb(43, 202, 43);
+    
 }
 
 .columns > * {
     flex: 1;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color:  rgb(255, 242, 0);
+    border-bottom: 1px solid black;
+    padding-top: 2%;
 }
 
 .img-container {
-    border: 5px solid firebrick;
+    
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
+    
+    width: fit-content;
+    max-width: 100%;
 }
 
 img {
-    height: 300px;
+    max-width: 50%;
+    max-height: 50%;
+    display: block;
+    border-radius: 100%;
+    border: 5px solid black;
+    cursor: pointer;
 }
