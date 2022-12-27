@@ -1,0 +1,25 @@
+.columns {
+    
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    border: 10px solid firebrick;
+}
+
+.card {
+    background-color: rgb(43, 202, 43);
+}
+
+.columns > * {
+    flex: 1;
+}
+
+.img-container {
+    border: 5px solid firebrick;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    height: 300px;
+}
