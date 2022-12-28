@@ -3,11 +3,11 @@ body {
 }
 
 .main-container {
-    background-color: rgb(255, 242, 0);
+    background-color: #FFC017;
 }
 
 .cards {
-    background-color:  rgb(255, 242, 0);
+    background-color:  #FFC017;
 }
 
 .columns {
@@ -35,25 +35,35 @@ body {
 nav {
     display: flex;
     justify-content: space-around;
-    background-color:  rgb(255, 242, 0);
+    background-color:  #FFC017;
     border-bottom: 1px solid black;
-    padding-top: 2%;
+    padding-top: 0.5%;
 }
 
-.img-container {
-    
+nav > h1 {
+    margin-left: 20%;
+}
+
+.btn-and-links-container {
     display: flex;
     justify-content: flex-end;
-    
     width: fit-content;
-    max-width: 100%;
+    width: 100%;
+    border: 3px solid firebrick;
+    align-items: center;
+    margin-right: 20%;
 }
 
-img {
+.links-container > a {
+    flex-wrap: wrap;
+    border: 3px solid firebrick;
+}
+
+/*img {
     max-width: 50%;
     max-height: 50%;
     display: block;
     border-radius: 100%;
     border: 5px solid black;
     cursor: pointer;
-}
+}*/
