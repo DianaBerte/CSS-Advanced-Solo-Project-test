@@ -37,26 +37,55 @@ nav {
     justify-content: space-around;
     background-color:  #FFC017;
     border-bottom: 1px solid black;
-    padding-top: 0.5%;
+    
+}
+
+nav > img {
+    width: 12vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-left: 25vh;
+    
 }
 
 nav > h1 {
-    margin-left: 20%;
+    margin-left: 20vh;
 }
 
 .btn-and-links-container {
     display: flex;
     justify-content: flex-end;
-    width: fit-content;
-    width: 100%;
-    border: 3px solid firebrick;
+    width: 60vh;
+    
     align-items: center;
-    margin-right: 20%;
+    padding-right: 30vh;
+    
+}
+
+.links-container > a, button {
+    flex-wrap: wrap;
+     
+    width: 15vh;
+    max-width: fit-content;
+    padding-left: 1vh;
+    padding-right: 1vh;  
+    padding-top: 1vh;
+    padding-bottom: 1vh;
 }
 
 .links-container > a {
-    flex-wrap: wrap;
-    border: 3px solid firebrick;
+    color: black;
+    font-size: small;
+    text-decoration: none;
+}
+
+button {
+    margin-left: 1vh;
+    background-color: black;
+    color: white;
+    border-radius: 40px;
+    font-size: small;
+    cursor: pointer;
 }
 
 /*img {
