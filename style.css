@@ -1,33 +1,17 @@
 body {
     margin: 0;
+    
 }
 
 .main-container {
     background-color: #FFC017;
 }
 
-.columns {
-    
-    display: flex;
-    flex-direction: row;
-    gap: 6rem;
-    border: 10px solid plum;
-    flex-flow: row wrap;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 5vh;
-    
-}
 
-.card {
-    background-color: rgb(43, 202, 43);
-    
-}
 
-.columns > * {
-    flex: 1;
-    
-}
+/*.columns > * {
+    flex: 1;  
+}*/
 
 nav {
     display: flex;
@@ -121,13 +105,34 @@ nav > h1 {
 
 .cards {
     display: flex;
-    flex-direction: row;
-    border: 5px solid firebrick;
-    color: red;
+    flex-direction: column;
+    align-items: stretch;
+    border-bottom: 1px solid black;
+    /*border: 5px solid firebrick;*/
+    color: rgba(255, 255, 255, 0.849);
 }
 
 .cards > h6 {
+    margin-left: 40vh;
+    color: black;
+    /*border: 5px solid firebrick;*/
+}
+
+.columns {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    flex-flow: row wrap;
+    width: 80vh;
+    margin-left: 40vh;
+    margin-right: 50vh;
     
-    border: 5px solid firebrick;
-    
+    /*border: 10px solid plum;*/
+}
+
+.card {
+    flex-direction: row;
+    color: black;
+    width: 10vh;
+    /*background-color: rgb(24, 104, 24);*/
 }
