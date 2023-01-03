@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Roboto:wght@400;700&display=swap');
+
 body {
     margin: 0;
-    
+    font-family: 'Roboto', sans-serif;
 }
 
 .main-container {
@@ -45,7 +47,6 @@ nav > h1 {
 
 .links-container > a, button {
     flex-wrap: wrap;
-     
     width: 15vh;
     max-width: fit-content;
     padding-left: 1vh;
@@ -88,7 +89,8 @@ nav > h1 {
 }
 
 .hero > h1 {
-    font-size: 7vh;   
+    font-size: 7vh;  
+    font-family: 'Lora', serif; 
 }
 
 .hero > p {
@@ -134,6 +136,7 @@ nav > h1 {
     flex-wrap: wrap;
     max-width: 20vh;
     justify-content: flex-start;
+    
     border: 3px solid royalblue;
 }
 
@@ -143,34 +146,52 @@ nav > h1 {
     max-width: fit-content;
     max-height: 100%;
     align-items: stretch;
-    color: black;  
+    color: rgba(230, 230, 230, 1);
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 36px;
+    font-size: 30px;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
     border: 1px solid salmon;
 }
 
 .card-1 > .author {
-    display: flex;
+    display: -webkit-box;
     flex-direction: row;
-    color: black;
-    max-width: fit-content;
-    font-size: small;    
+    color:  rgba(41, 41, 41, 1);
+    padding-top: 0;
+    padding-bottom: 0;
+    word-break: break-all;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;   
     border: 3px solid rgb(24, 104, 24);
 }
 
 .card-1 > .title {
-    display: flex;
+    display: -webkit-box;
     flex-direction: row;
-    color: black;
-    max-width: fit-content;
-    font-size: larger;
+    color: rgba(41, 41, 41, 1);
+    max-height: 40px;
+    font-weight: 700;
+    letter-spacing: 0;
+    font-size: 10px;
+    line-height: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
     border: 3px solid rgb(24, 104, 24);
 }
 
 .card-1 > .date {
     display: flex;
     flex-direction: row;
-    color: black;
+    color: rgba(117, 117, 117, 1);
     max-width: fit-content;
-    font-size: small;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
     border: 3px solid rgb(24, 104, 24);
 }
 
