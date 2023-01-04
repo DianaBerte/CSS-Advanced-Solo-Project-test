@@ -540,7 +540,11 @@ Card 3
 } */{}
 
 section.trending {
-    padding: 3.5rem 0;
+    padding-top: 1.5rem;
+    padding-left: 25rem;
+    padding-right: 20rem;
+    border: 3px solid black;
+
 }
 
 *, *::before, *::after {
@@ -551,19 +555,23 @@ section.trending {
     width: 100%;
     margin-right: auto;
     margin-left: auto;
+    border: 3px solid firebrick;
 }
 
 .position-relative {
     position: relative;
+    flex-wrap: wrap;
 }
 
 .flex {
     display: flex;
+    /* flex-wrap: wrap; */
 }
 
 .max-50 {
     flex-basis: 50%;
-    max-width: 50%;
+    max-width: 33.3%;
+    
 }
 
 .flex-grow-1 {
@@ -578,11 +586,14 @@ section.trending {
     word-wrap: break-word;
     background-color: #fff;
     background-clip: border-box;
-    border-radius: 0.5rem;
+    max-width: 100%;
+    border: 3px solid green;
 }
 
 .card-body {
     flex: 1 1 auto;
+    max-width: 100%;
     min-height: 1px;
-    padding: 1.25rem;
+    padding: 0.25rem;
+    border: 3px solid pink;
 }
