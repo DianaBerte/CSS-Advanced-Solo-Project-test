@@ -18,16 +18,17 @@ body {
 nav {
     display: flex;
     justify-content: space-around;
+    height: 8vh;
     background-color:  #FFC017;
     border-bottom: 1px solid black;
+    /* border: 3px solid green; */
     
 }
 
-nav > img {
-    width: 12vh;
-    padding-top: 2vh;
-    padding-bottom: 2vh;
-    padding-left: 25vh;
+nav > .logo {
+    width: 10%;
+    /* border: 3px solid firebrick; */
+    margin-left: 40vh;
     
 }
 
@@ -38,7 +39,7 @@ nav > h1 {
 .btn-and-links-container {
     display: flex;
     justify-content: flex-end;
-    width: 60vh;
+    width: 100%;
     flex-wrap: wrap;
     align-items: center;
     padding-right: 30vh;
