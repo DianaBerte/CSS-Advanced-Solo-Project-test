@@ -543,7 +543,8 @@ section.trending {
     padding-top: 1.5rem;
     padding-left: 25rem;
     padding-right: 20rem;
-    border: 3px solid black;
+    border-bottom: 1px solid rgb(172, 172, 172);
+    /* border: 3px solid black; */
 
 }
 
@@ -555,7 +556,28 @@ section.trending {
     width: 100%;
     margin-right: auto;
     margin-left: auto;
-    border: 3px solid firebrick;
+    /* padding-top: 0%; */
+    /* border: 3px solid firebrick; */
+}
+
+.container > h2 > span > ion-icon { 
+    font-size: 20px;
+    --ionicon-stroke-width: 30px;
+    color: black;
+    margin-right: 15px;
+    /* border: 3px solid green; */
+  }
+
+.container > h2 {
+    margin-top: 0%;
+    position: relative;
+    display: flex;
+    align-self: center;
+    /* flex-direction: row; */
+    font-size: 13px;
+    letter-spacing: 1.5px;
+    max-width: fit-content;
+    /* border: 3px solid red; */
 }
 
 .position-relative {
@@ -581,19 +603,29 @@ section.trending {
 .card {
     position: relative;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     min-width: 0;
     word-wrap: break-word;
     background-color: #fff;
     background-clip: border-box;
     max-width: 100%;
-    border: 3px solid green;
+    /* border: 3px solid green; */
 }
+
+.card > .number {
+    flex-direction: row;
+    max-width: 20%;
+    color: rgba(230, 230, 230, 1);
+    font-weight: 900;
+    font-size: 30px;
+    /* border: 5px solid rgb(242, 230, 55); */
+} 
 
 .card-body {
     flex: 1 1 auto;
-    max-width: 100%;
+    flex-direction: row;
+    max-width: 90%;
     min-height: 1px;
-    padding: 0.25rem;
-    border: 3px solid pink;
+    padding-left: 1rem;
+    /* border: 3px solid pink; */
 }
