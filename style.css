@@ -84,26 +84,40 @@ nav > h1 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+     
     padding-left: 40vh;
-    padding-bottom: 5vh;
+    padding-bottom: 10vh;
+   
     border-bottom: 1px solid black;
+    /* border: 3px solid red; */
 }
 
 .hero > h1 {
-    font-size: 7vh;  
-    font-family: 'Lora', serif; 
+    font-size: 10vh;  
+    letter-spacing: 0;
+    font-weight:lighter;
+    margin-bottom: 1vh;
+    font-family: gt-super, Georgia, Cambria, "Times New Roman", Times, serif;
+    /* border: 3px solid green; */
 }
 
 .hero > p {
-    font-size: large;
+    font-size: 2vh;
+    margin-bottom: 3vh;
+    /* border: 3px solid green; */
 }
 
 .hero > button {
     background-color: black;
     color: white;
     border-radius: 40px;
-    font-size: small;
+    font-size:larger;
     cursor: pointer;
+    text-align: center;
+    padding-left: 7vh;
+    padding-right: 7vh;
+    width: 100%;
+    /* border: 3px solid green; */
 }
 
 /* .cards {
